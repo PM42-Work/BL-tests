@@ -13,7 +13,7 @@ const controller = new ScrollMagic.Controller();
 
 //scenes
 let scene = new ScrollMagic.Scene({
-	duration: 1000, 
+	duration: 1700, 
 	triggerElement: intro,
 	triggerHook: 0
 })
@@ -27,7 +27,7 @@ const textAnim= TweenMax.fromTo(text, 1, {opacity:0, scale:0.5}, {opacity:1, sca
 let scene2 = new ScrollMagic.Scene({
 	duration:1000,
 	triggerElement: intro,
-	offset:1700,
+	offset:700,
 	triggerHook:0
 })
 .addIndicators()
